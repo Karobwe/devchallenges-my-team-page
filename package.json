@@ -2,9 +2,9 @@
   "name": "devchallenges-404-not-found",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "public/index.html",
   "scripts": {
-    "start": "serve",
+    "start": "serve -p 8000 ./public",
     "dev-server": "encore dev-server",
     "dev": "encore dev",
     "watch": "encore dev --watch",
