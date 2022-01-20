@@ -1,3 +1,13 @@
-body {
-    background-color: #63d3b5;
+@import "utils/variables";
+@import "base/reset";
+@import "base/typography";
+@import "layout/layout";
+@import "components/hook";
+@import "components/team";
+@import "components/footer";
+
+:root {
+    --font-default: 'Montserrat', sans-serif;
+    --font-primary: 'PT Serif', serif;
+    --font-accent: 'Poppins', sans-serif;
 }

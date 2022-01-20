@@ -1,0 +1,8 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: $body_padding-top__mobile $body_padding-x $body_padding-bottom $body_padding-x;
+}

@@ -1,0 +1,33 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.hook {
+  h1 {
+    font-family: $font-primary;
+    font-weight: $font-bold;
+    font-size: $text-xl;
+    line-height: 1; // Should be $leading-loose but voluntarily set to 1 so I can control the distance from the top of the page
+    letter-spacing: $tracking-tight;
+    margin-bottom: 48px;
+
+    @include media-gte-lg {
+      margin-bottom: 0;
+    }
+  }
+
+  .description {
+    h3 {
+      font-family: $font-accent;
+      font-weight: $font-semibold;
+      font-size: $text-lg;
+      line-height: $leading-relaxed;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-family: $font-accent;
+      font-size: $text-md;
+      line-height: $leading-snugger;
+    }
+  }
+}

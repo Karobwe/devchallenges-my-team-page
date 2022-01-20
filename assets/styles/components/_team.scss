@@ -1,0 +1,30 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.team-card {
+  img {
+    width: $picture-width-mobile;
+    height: $picture-height-mobile;
+
+    @include media-gte-lg {
+      width: $picture-width-desktop;
+      height: $picture-height-desktop;
+    }
+  }
+
+  figcaption {
+    font-family: $font-accent;
+    font-weight: $font-semibold;
+    font-size: $text-md;
+    line-height: $leading-snugger;
+  }
+
+  h4 {
+    font-family: $font-primary;
+    font-size: $text-sm;
+    line-height: $leading-snug;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-transform: uppercase;
+  }
+}

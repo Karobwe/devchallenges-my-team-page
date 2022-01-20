@@ -1,0 +1,59 @@
+// * * * * * *
+// Typography
+// * * * * * *
+
+// Font family
+$font-default:            'Montserrat', sans-serif;
+$font-primary:            'PT Serif', serif;
+$font-accent:             'Poppins', sans-serif;
+
+// Font weight
+$font-normal: 400;
+$font-semibold: 600;
+$font-bold: 700;
+
+// Font size
+$text-xs:     0.625rem;   // 10px
+$text-sm:     0.75rem;    //12px
+$text-md:     0.875rem;   // 14px
+$text-base:   1rem;
+$text-lg:     1.125rem;   // 18px
+$text-xl:     2.25rem;    // 36px
+$text-2xl:    1.5rem;
+
+// Line height
+$leading-tight: 0.8125;     // 13px
+$leading-snug: 1.0625;      // 17px
+$leading-snugger: 1.3125;    // 21px
+$leading-relaxed: 1.6875;   // 27px
+$leading-loose: 3;          // 48px
+
+// Letter spacing
+$tracking-tight: -0.045em;
+
+// * * * *
+// Layout
+// * * * *
+
+// Body margins
+$body_padding-x: 12px;
+$body_padding-bottom: 24px;
+$body_padding-top__mobile: 70px;
+$body_padding-top__desktop: 110px;
+
+// Team cards gutters
+$layout-horizontal-gutter_mobile: 5px;
+$layout-vertical-gutter_mobile: 64px;
+
+// * * * *
+// Color
+// * * * *
+
+$black: rgba(0, 0, 0, 1);
+$white: rgba(255, 255, 255, 1);
+$grey:  rgba(169, 169, 169, 1);
+
+$picture-width-mobile: 138px;
+$picture-height-mobile: 209px;
+$picture-width-desktop: 237px;
+$picture-height-desktop: 341px;
