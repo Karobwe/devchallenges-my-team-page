@@ -1,0 +1,24 @@
+{
+  "name": "devchallenges-404-not-found",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karobwe/devchallenges-my-team-page.git"
+  },
+  "keywords": [],
+  "author": "Chanfi Attoumani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karobwe/devchallenges-my-team-page/issues"
+  },
+  "homepage": "https://github.com/Karobwe/devchallenges-my-team-page#readme",
+  "devDependencies": {
+    "serve": "11.3.*"
+  }
+}
