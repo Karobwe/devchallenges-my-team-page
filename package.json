@@ -23,9 +23,10 @@
   "homepage": "https://github.com/Karobwe/devchallenges-my-team-page#readme",
   "devDependencies": {
     "@symfony/webpack-encore": "^1.7.0",
+    "file-loader": "^6.0.0",
     "sass": "^1.49.0",
     "sass-loader": "12.0.0",
-    "serve": "11.3.*",
+    "serve": "^13.0.0",
     "webpack-notifier": "1.6.0"
   }
 }
