@@ -42,7 +42,7 @@ You can check the live demo on [Netlify](https://happy-varahamihira-7f756e.netli
 
 I tried to integrate SASS for easy CSS organization/maintenance. I choose Symfony's Webpack Encore since I already used it in Symfony app, and wanted to see how to use it in non-Symfony environment. 
 
-And this is where the most issues I meet were from. Especially Encore's files hashing on production. I didn't find how to use them without Twig helpers tags, so I disabled hashing for now.
+And this is where the most issues I meet were from. Especially Encore's files hashing on production. I didn't find how to use them without Twig helpers tags, so I disabled hashing for now. Also, I left Stimulus since it come with Encore, even if I'm not using it ; to avoid breaking things. 
 
 I want to improve using of Encore, to be able to integrate third party tools and framework/libraries via Webpack.
 
@@ -50,9 +50,9 @@ I want to improve using of Encore, to be able to integrate third party tools and
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Webpack Encore](https://symfony.com/doc/current/frontend.html#webpack-encore)
+- [Webpack](https://webpack.js.org/)
+- [Sass](https://sass-lang.com/)
 
 ## Features
 
@@ -65,9 +65,10 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [:nth-child](https://css-tricks.com/almanac/selectors/n/nth-child/)
+- [CSS3 structural pseudo-class selector tester](https://lea.verou.me/demos/nth.html)
+- [text-orientation](https://developer.mozilla.org/fr/docs/Web/CSS/text-orientation)
 
 ## Contact
 
