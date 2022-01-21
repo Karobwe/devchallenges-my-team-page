@@ -1,30 +1,86 @@
 @import "../utils/variables";
 @import "../utils/mixins";
 
-.team-card {
-  img {
-    width: $picture-width-mobile;
-    height: $picture-height-mobile;
+.team {
+  display: grid;
+  grid-template-columns: repeat(2, 160px);
+  column-gap: 25px;
+  row-gap: 16px;
+  justify-content: left;
+
+  margin-top: 70px;
+
+  @include media-gte-sm {
+    grid-template-columns: repeat(3, 160px);
+  }
+
+  @include media-gte-lg {
+    grid-template-columns: repeat(3, 264px);
+    column-gap: 70px;
+    row-gap: 30px;
+    justify-content: center;
+  }
+
+  .team-card {
+    display: grid;
+    grid-template-columns: $picture-width-mobile 10px;
 
     @include media-gte-lg {
-      width: $picture-width-desktop;
-      height: $picture-height-desktop;
+      grid-template-columns: $picture-width-desktop 10px;
+    }
+
+    img {
+      width: $picture-width-mobile;
+      height: $picture-height-mobile;
+
+      @include media-gte-lg {
+        width: $picture-width-desktop;
+        height: $picture-height-desktop;
+      }
+    }
+
+    figcaption {
+      margin-top: 10px;
+
+      font-family: $font-accent;
+      font-weight: $font-semibold;
+      font-size: $text-md;
+      line-height: $leading-snugger;
+    }
+
+    h4 {
+      margin-left: 20px;
+
+      font-family: $font-primary;
+      font-size: $text-sm;
+      line-height: $leading-snug;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      text-transform: uppercase;
     }
   }
 
-  figcaption {
-    font-family: $font-accent;
-    font-weight: $font-semibold;
-    font-size: $text-md;
-    line-height: $leading-snugger;
+  .team-card:nth-child(2n) {
+    //position: relative;
+    //top: 64px;
+    margin-top: 64px;
+
+    // remove all margins then redefine them according to tablette or desktop screen
+    @include media-gte-sm {
+      margin-top: 0;
+    }
   }
 
-  h4 {
-    font-family: $font-primary;
-    font-size: $text-sm;
-    line-height: $leading-snug;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    text-transform: uppercase;
+  // use 3 columns on tablette, with same image size as mobile
+  @include media-gte-sm {
+    .team-card:nth-child(3n+2) {
+      margin-top: 64px;
+    }
+  }
+
+  @include media-gte-lg {
+    .team-card:nth-child(3n+2) {
+      margin-top: 130px;
+    }
   }
 }

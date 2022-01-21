@@ -36,10 +36,11 @@ $tracking-tight: -0.045em;
 // * * * *
 
 // Body margins
-$body_padding-x: 12px;
-$body_padding-bottom: 24px;
-$body_padding-top__mobile: 70px;
-$body_padding-top__desktop: 110px;
+$body_margin-x: 12px;
+$body_margin-x-desktop: 240px;
+$body_margin-bottom: 24px;
+$body_margin-top__mobile: 70px;
+$body_margin-top__desktop: 110px;
 
 // Team cards gutters
 $layout-horizontal-gutter_mobile: 5px;

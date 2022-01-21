@@ -8,7 +8,6 @@
     font-size: $text-xl;
     line-height: 1; // Should be $leading-loose but voluntarily set to 1 so I can control the distance from the top of the page
     letter-spacing: $tracking-tight;
-    margin-bottom: 48px;
 
     @include media-gte-lg {
       margin-bottom: 0;
@@ -16,7 +15,11 @@
   }
 
   .description {
+    margin-top: 38px;
+
     h3 {
+      margin-bottom: 10px;
+
       font-family: $font-accent;
       font-weight: $font-semibold;
       font-size: $text-lg;

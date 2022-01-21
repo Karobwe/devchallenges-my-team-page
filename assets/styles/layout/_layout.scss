@@ -4,5 +4,17 @@
 body {
   display: flex;
   flex-direction: column;
-  padding: $body_padding-top__mobile $body_padding-x $body_padding-bottom $body_padding-x;
+  row-gap: $body_margin-bottom;
+
+  main {
+    margin: $body_margin-top__mobile $body_margin-x 70px $body_margin-x; // 70px is the distance from footer
+
+    @include media-gte-lg {
+      margin: $body_margin-top__desktop auto 70px auto;
+    }
+  }
+
+  footer {
+    margin-bottom: $body_margin-bottom;
+  }
 }
