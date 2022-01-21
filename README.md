@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://happy-varahamihira-7f756e.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -36,14 +36,15 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](assets/images/screenshot.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+You can check the live demo on [Netlify](https://happy-varahamihira-7f756e.netlify.app/).
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+I tried to integrate SASS for easy CSS organization/maintenance. I choose Symfony's Webpack Encore since I already used it in Symfony app, and wanted to see how to use it in non-Symfony environment. 
+
+And this is where the most issues I meet were from. Especially Encore's files hashing on production. I didn't find how to use them without Twig helpers tags, so I disabled hashing for now.
+
+I want to improve using of Encore, to be able to integrate third party tools and framework/libraries via Webpack.
 
 ### Built With
 
@@ -70,6 +71,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://karobwe.dev)
+- Website [karobwe.dev](https://karobwe.dev)
 - GitHub [@Karobwe](https://github.com/Karobwe)
 - Twitter [@Karobwe](https://twitter.com/Karobwe)
